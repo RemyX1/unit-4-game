@@ -52,7 +52,7 @@ $(document).ready(function () {
     
 
 
-    $("img").on("click", function () {
+    $("#Gems").on("click", "img", function () {
         var pointvalue = $(this).attr("value");
         pointvalue = parseInt(pointvalue)
         points = points + pointvalue;

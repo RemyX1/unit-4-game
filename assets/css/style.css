@@ -1,5 +1,9 @@
 
+legend{
 
+max-width: auto;
+
+}
 .Crystal {
 
 background-color: blue;
@@ -48,8 +52,7 @@ font-size: 25px;
 body {
 
 background-color: aqua;
-max-width: 960px;
-display: inline;
+
 
 
 }
@@ -69,10 +72,8 @@ margin: 25px 0px 0px 0px;
 padding: 7px;
 border: 6px solid purple;
 background-color: magenta;
+
 }
-
-
-
 
 
 .Score {
@@ -100,4 +101,20 @@ margin: 0;
 
 
 }
+
+#footer {
+    width: 100%;
+    background-color:blue;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    display: block;
+    border: solid 6px purple;
+  }
+
+  .end {
+
+  color: white;
+
+  }
 
